@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "学术主页"
+title                    : "主页"
 title_separator          : "-"
 name                     : &name "陈奕洋"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : url: https://chen-1521.github.io
+url                      : https://chen-1521.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "chen-1521/chen-1521.github.io"
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,8 +24,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "陈奕洋"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
   location         : "四川成都"
   employer         : "电子科技大学"
+  uri              : # URL
   email            : "yiyangchen2024@163.com" 
 
   # Academic websites
